@@ -1,4 +1,4 @@
-# CoronoAppReviews
+# CoronaAppReviews
 Analysing Corona App reviews in the Play Store and App Store.
 
 ## Running the notebook
