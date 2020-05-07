@@ -1,4 +1,4 @@
-import pandas ad pd
+import pandas as pd
 import json
 
 df = pd.read_json('data/googlePlayReviews.json')
