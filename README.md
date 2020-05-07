@@ -1,7 +1,10 @@
 # CoronaAppReviews
 Analysing Corona App reviews in the Play Store and App Store.
 
-## Running the notebook
+## View the notebook
+Open NLP.ipynb right here on Github.
+
+## Run the notebook
 Install Jupyter and run
     
     jupyter notebook
