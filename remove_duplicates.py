@@ -3,7 +3,7 @@ from os.path import isfile, join
 import pandas as pd
 import json
 
-#we get the reviews from the app store in files of 500 each, every hour. this script removes the overlapping (= duplicate) reviews 
+# we get the reviews from the app store in files of 500 each, every hour. this script removes the overlapping (= duplicate) reviews 
 
 mypath  = 'data/seafile_download'
 files = [f for f in listdir(mypath) if isfile(join(mypath, f))]
