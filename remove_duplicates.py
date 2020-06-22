@@ -23,7 +23,9 @@ for f in files:
     dfs.append(curr_df)
 
 con = pd.concat(dfs)
+print(con.columns)
 
-con = con.drop_duplicates().sort_values('updated')
+# some AppStore duplicate reviews have different IDs, that's why duplicates are now detected by date and text
+con = con.drop_duplicates(subset=['updated', 'summary']).sort_values('updated')
 con.reset_index(inplace=True)
 con.to_json('data/appStoreReviews.json')
